@@ -35,6 +35,10 @@
                 font-weight: 600;
                 background: $black-2;
 
+                &.active {
+                    color: #8a8a8a;
+                }
+
                 svg {
                     margin-right: 8px;
                 }

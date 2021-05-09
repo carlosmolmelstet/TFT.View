@@ -8,23 +8,32 @@
     <div class="container-filters">
         <div class="row-search">
             <div class="select">
-                <select name="slct" id="slct">
-                    <option selected disabled>Classes</option>
-                    <option value="1">Pure CSS</option>
-                    <option value="2">No JS</option>
-                    <option value="3">Nice!</option>
+                <select name="slct" onchange="SearchChampion();" id="selectClass">
+                    <option value="">Todos</option>
+                    @foreach (var item in Model.Traits)
+                    {
+                        if (item.Type == "class")
+                        {
+                            <option value="@item.TraitId">@item.Name</option>
+                        }
+                    }
+
                 </select>
             </div>
             <div class="select">
-                <select name="slct" id="slct">
-                    <option selected disabled>Classes</option>
-                    <option value="1">Pure CSS</option>
-                    <option value="2">No JS</option>
-                    <option value="3">Nice!</option>
+                <select name="slct" onchange="SearchChampion();" id="selectOrigin">
+                    <option value="">Todos</option>
+                    @foreach (var item in Model.Traits)
+                    {
+                        if (item.Type == "origin")
+                        {
+                            <option value="@item.TraitId">@item.Name</option>
+                        }
+                    }
                 </select>
             </div>
             <div class="input">
-                <input  placeholder="Pesquise por um campeão " />
+                <input  placeholder="Pesquise por um campeão" id="searchInput" onkeyup="SearchChampion();" />
                 <div class="search">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M15.5 14H14.71L14.43 13.73C15.41 12.59 16 11.11 16 9.5C16 5.91 13.09 3 9.5 3C5.91 3 3 5.91 3 9.5C3 13.09 5.91 16 9.5 16C11.11 16 12.59 15.41 13.73 14.43L14 14.71V15.5L19 20.49L20.49 19L15.5 14ZM9.5 14C7.01 14 5 11.99 5 9.5C5 7.01 7.01 5 9.5 5C11.99 5 14 7.01 14 9.5C14 11.99 11.99 14 9.5 14Z" fill="#616161" />
@@ -34,13 +43,13 @@
             </div>
         </div>
         <div class="row-filter-cost">
-            <div class="btn-cost-up">
+            <div class='btn-cost-up active'  onclick="OrderChampion(true);">
                 <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0.916687 7.83333L8.00002 0.75L15.0833 7.83333H0.916687Z" fill="#259D3F" />
                 </svg>
                 Custo
             </div>
-            <div class="btn-cost-down">
+            <div class="btn-cost-down"  onclick="OrderChampion(false);">
                 <svg width="16" height="8" viewBox="0 0 16 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0.916687 0.166668L8.00002 7.25L15.0833 0.166668H0.916687Z" fill="#9D2525" />
                 </svg>

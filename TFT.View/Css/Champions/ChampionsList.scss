@@ -1,6 +1,13 @@
 ﻿@import '../Shared/Colors.scss';
 
 .content-ChampionsList {
+    display: flex;
+    flex-direction: column;
+
+    &.moreCost {
+        flex-direction: column-reverse;
+    }
+
     .row {
         display: flex;
         align-items: center;
@@ -100,6 +107,18 @@
                     }
                 }
             }
+        }
+    }
+
+    .notFoundResult {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+        font-weight: 500;
+
+        &.d-none {
+            display: none;
         }
     }
 }

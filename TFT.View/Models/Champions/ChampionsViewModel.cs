@@ -9,5 +9,9 @@ namespace TFT.View.Models.Champions
     public class ChampionsViewModel
     {
         public List<Champion> Champions { get; set; }
+
+        public List<Trait> Traits { get; set; }
+
+        public FormData FormData { get; set; }
     }
 }
