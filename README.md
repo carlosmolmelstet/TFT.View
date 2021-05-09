@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img alt="Happy" src=".github/capa.png" width="100%">
+  <img alt="Happy" src=".github/capa.PNG" width="100%">
 </p>
 
 <br>
