@@ -1,0 +1,86 @@
+﻿@model TFT.View.Models.Champions.ChampionsViewModel
+
+<link href="~/css/Champions/ChampionsList.css" rel="stylesheet" />
+
+
+<div class="content-ChampionsList">
+    @for (var i = 5; i >= 1; i--)
+    {
+        <div class="row">
+            <div class="champions-cost">
+                <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0)">
+                        <path d="M15.8 10.9127C18.2 10.3175 19.8 8.9286 19.8 7.34129V3.96825C19.8 1.78571 16.2 -0.198364 12 -0.198364C7.6 -0.198364 4.19995 1.5873 4.19995 3.96825V6.15074C1.79995 6.9444 0.199951 8.33338 0.199951 9.72227V13.0952C0.199951 15.4761 3.8 17.2619 8 17.2619C12.2 17.2619 15.8 15.2777 15.8 13.0952V10.9127ZM5 9.32542C6.4 10.5159 9.00005 11.5079 11.8 11.5079C12 11.5079 12.4 11.5079 12.6 11.5079V12.6985C12 13.0953 10.4 13.8889 7.80005 13.8889C5.20005 13.8889 3.6 13.0953 3 12.6985V10.119C3.2 9.92059 3.40005 9.92068 3.80005 9.72227C4.20005 9.52386 4.6 9.52383 5 9.32542Z" fill="#808080" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0">
+                            <rect width="20" height="17.8571" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>
+                @i
+            </div>
+            <div class="row-list">
+
+                @foreach (var champ in Model.Champions)
+                {
+                    if (champ.Cost == i.ToString())
+                    {
+                        <div class="item-list">
+                            <img src="~/Data/Images/champions/@champ.ChampionImg" style="border: 1px solid @(champ.Cost == "5" ? "#DD9325" : champ.Cost == "4" ? "#7F2E9B" : champ.Cost == "3" ? "#175398" : champ.Cost == "2" ? "#0B6F27" : "#19252C" ); " />
+                            <div class="champion-info">
+                                <div class="champion-name">
+                                    <img src="~/Data/Images/champions/@champ.ChampionImg" style="border: 1px solid @(champ.Cost == "5" ? "#DD9325" : champ.Cost == "4" ? "#7F2E9B" : champ.Cost == "3" ? "#175398" : champ.Cost == "2" ? "#0B6F27" : "#19252C" ); " />
+                                    <p>@champ.Name</p>
+                                </div>
+                                <div class="champion-traits">
+                                    @{ var position = 0;}
+                                    @foreach (var traits in champ.Traits)
+                                    {
+                                        <div class="trait">
+                                            <img src="~/Data/Images/traits/@champ.TraitsImg[position]" />
+                                            <p>@traits</p>
+                                        </div>
+
+                                        position++;
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    }
+</div>
+
+@*@foreach (var champion in Model.Champions)
+    {
+    <div class="row">
+        <img src="~/Data/Images/champions/@champion.ChampionImg" width="60px" style="        border: 3px inset @(champion.Cost == "5" ? "#DD9325" : "red");
+            border-radius: 8px;" />
+        <p>Name: @champion.Name</p>
+        <p>ChampionId: @champion.ChampionId</p>
+        <p>Cost: @champion.Cost</p>
+        <p>
+            Traits:
+            <ul>
+                @foreach (var x in champion.Traits)
+                {
+                    <li>
+                        @x
+                    </li>
+                }
+            </ul>
+            <ul>
+                @foreach (var x in champion.TraitsId)
+                {
+                    <li>
+                        @x
+                    </li>
+                }
+            </ul>
+        </p>
+        <hr />
+    </div>
+    }*@

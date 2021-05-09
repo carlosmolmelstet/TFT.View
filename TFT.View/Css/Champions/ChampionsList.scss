@@ -1,0 +1,128 @@
+﻿@import '../Shared/Colors.scss';
+
+.content-ChampionsList {
+    .row {
+        display: flex;
+        align-items: center;
+
+        .champions-cost {
+            display: flex;
+            align-items: center;
+            margin-right: 8px;
+            font-size: 24px;
+
+            svg {
+                margin-right: 4px;
+            }
+        }
+
+        .row-list {
+            width: 100%;
+            border-radius: 8px;
+            background: $black-2;
+            margin: 16px 0;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+
+
+            .item-list {
+                margin: 16px;
+                width: 63px;
+                height: 63px;
+                position: relative;
+
+
+                img {
+                    border-radius: 8px;
+                    width: 100%;
+                }
+
+                .champion-info {
+                    position: absolute;
+                    top: -130px;
+                    left: -170px;
+                    display: none;
+                    width: 290px;
+                    background: $black-3;
+                    border-radius: 8px;
+                }
+
+                &:hover {
+                    .champion-info {
+                        display: flex;
+                        padding: 8px;
+                        z-index: 1000;
+
+
+                        .champion-name {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            width: 115px;
+                            border-right: 1px solid #353535;
+                            transition: 1s;
+
+
+                            img {
+                                border-radius: 8px;
+                                width: 61px;
+                            }
+
+                            p {
+                                color: $white;
+                                margin: 8px;
+                            }
+                        }
+
+                        .champion-traits {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+
+                            .trait {
+                                padding: 0 16px;
+                                display: flex;
+                                align-items: center;
+
+                                img {
+                                    margin-right: 8px;
+                                    width: 20px;
+                                }
+
+                                p {
+                                    margin: 8px;
+                                    color: $white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 400px) {
+    .content-ChampionsList .row {
+        .champions-cost {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            svg {
+                margin: 0;
+            }
+        }
+
+        .row-list {
+            .item-list {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+}

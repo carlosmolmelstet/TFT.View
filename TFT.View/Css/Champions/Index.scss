@@ -1,0 +1,111 @@
+﻿@import '../Shared/Colors.scss';
+
+
+.wrapper-index {
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+    width: 100%;
+
+    .container-filters {
+        max-width: 100%;
+
+        .row-search {
+            display: flex;
+            justify-content: flex-end;
+            flex-wrap: wrap-reverse;
+
+            div {
+                margin-bottom: 16px;
+            }
+        }
+
+        .row-filter-cost {
+            margin-top: 32px;
+            display: flex;
+            justify-content: flex-end;
+
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 16px;
+                padding: 8px 16px;
+                border-radius: 8px;
+                font-weight: 600;
+                background: $black-2;
+
+                svg {
+                    margin-right: 8px;
+                }
+
+                &:hover {
+                    background: $black-3;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .wrapper-listChampions {
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .container-filters {
+        .row-search {
+
+
+            input {
+                width: 390px;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 602px) {
+    .container-filters {
+        .row-search {
+
+
+            input {
+                width: calc(100vw - 248px);
+            }
+
+            .select {
+                width: calc(100vw - 200px);
+                margin: 0px;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 400px) {
+    .container-filters {
+        .row-search {
+
+
+            input {
+                width: calc(100vw - 197px);
+            }
+
+            .select {
+                width: calc(100vw - 149px);
+                margin: 0px;
+            }
+        }
+
+        .row-filter-cost {
+            div {
+                font-size: 12px;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,14 @@
+﻿[
+  {
+    "outputFile": "Css/Shared/Layout.css",
+    "inputFile": "Css/Shared/Layout.scss"
+  },
+  {
+    "outputFile": "Css/Champions/Index.css",
+    "inputFile": "Css/Champions/Index.scss"
+  },
+  {
+    "outputFile": "Css/Champions/ChampionsList.css",
+    "inputFile": "Css/Champions/ChampionsList.scss"
+  }
+]

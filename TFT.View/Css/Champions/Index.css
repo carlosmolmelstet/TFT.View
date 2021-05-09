@@ -1,0 +1,53 @@
+﻿.wrapper-index {
+  display: flex;
+  flex-direction: column;
+  margin-top: 64px;
+  width: 100%; }
+  .wrapper-index .container-filters {
+    max-width: 100%; }
+    .wrapper-index .container-filters .row-search {
+      display: flex;
+      justify-content: flex-end;
+      flex-wrap: wrap-reverse; }
+      .wrapper-index .container-filters .row-search div {
+        margin-bottom: 16px; }
+    .wrapper-index .container-filters .row-filter-cost {
+      margin-top: 32px;
+      display: flex;
+      justify-content: flex-end; }
+      .wrapper-index .container-filters .row-filter-cost div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 16px;
+        padding: 8px 16px;
+        border-radius: 8px;
+        font-weight: 600;
+        background: #19252C; }
+        .wrapper-index .container-filters .row-filter-cost div svg {
+          margin-right: 8px; }
+        .wrapper-index .container-filters .row-filter-cost div:hover {
+          background: #233037;
+          cursor: pointer; }
+  .wrapper-index .wrapper-listChampions {
+    max-width: 100%; }
+
+@media (max-width: 900px) {
+  .container-filters .row-search input {
+    width: 390px; } }
+
+@media (max-width: 602px) {
+  .container-filters .row-search input {
+    width: calc(100vw - 248px); }
+  .container-filters .row-search .select {
+    width: calc(100vw - 200px);
+    margin: 0px; } }
+
+@media (max-width: 400px) {
+  .container-filters .row-search input {
+    width: calc(100vw - 197px); }
+  .container-filters .row-search .select {
+    width: calc(100vw - 149px);
+    margin: 0px; }
+  .container-filters .row-filter-cost div {
+    font-size: 12px; } }

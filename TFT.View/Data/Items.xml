@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <row>
+    <id>1</id>
+    <name>B.F. Sword</name>
+    <description>Gain Attack Damage.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>2</id>
+    <name>Recurve Bow</name>
+    <description>Gain Attack Speed.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>3</id>
+    <name>Needlessly Large Rod</name>
+    <description>Gain Spell Power.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>4</id>
+    <name>Tear of the Goddess</name>
+    <description>Gain Mana.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>5</id>
+    <name>Chain Vest</name>
+    <description>Gain Armor.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>6</id>
+    <name>Negatron Cloak</name>
+    <description>Gain Magic Resist.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>7</id>
+    <name>Giant&#x27;s Belt</name>
+    <description>Gain Health.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>8</id>
+    <name>Spatula</name>
+    <description>It must do something...</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>9</id>
+    <name>Sparring Gloves</name>
+    <description>Gain Critical Strike Chance and Dodge Chance.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>11</id>
+    <name>Deathblade</name>
+    <description>Contributing to a kill grants the holder additional Attack Damage for the rest of combat. This effect can stack any number of times.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>12</id>
+    <name>Giant Slayer</name>
+    <description>The holder&#x27;s Abilities and attacks do bonus damage. If the target has more health, the bonus damage increases.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>13</id>
+    <name>Hextech Gunblade</name>
+    <description>The holder&#x27;s magic and true damage from Abilities heal them for a percentage of the damage dealt. Excess healing fuels a shield that protects the holder.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>14</id>
+    <name>Spear of Shojin</name>
+    <description>The holder&#x27;s Basic Attacks restore additional Mana.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>15</id>
+    <name>Guardian Angel</name>
+    <description>Prevents the holder&#x27;s first death, placing them in stasis instead. After a short delay, they return with restored Health and shed all negative effects.</description>
+    <isUnique>true</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>16</id>
+    <name>Bloodthirster</name>
+    <description>Physical damage heals the holder for a percentage of the damage dealt.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>17</id>
+    <name>Zeke&#x27;s Herald</name>
+    <description>When combat begins, the holder and all nearby allies in the same row gain Attack Speed for the rest of combat.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>18</id>
+    <name>Skirmisher Emblem</name>
+    <description>The holder gains the Skirmisher trait.</description>
+    <isUnique>true</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>19</id>
+    <name>Infinity Edge</name>
+    <description>Grants Critical Strike Chance (including components). Each point of Critical Strike Chance above 100% becomes bonus Critical Strike Damage.</description>
+    <isUnique>true</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>22</id>
+    <name>Rapid Firecannon</name>
+    <description>Increases the holder&#x27;s Attack Range and grants bonus Attack Speed (including components). The holder&#x27;s attacks can no longer miss.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>23</id>
+    <name>Guinsoo&#x27;s Rageblade</name>
+    <description>Attacks grant bonus Attack Speed for the rest of combat. This bonus Attack Speed can stack any number of times.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>24</id>
+    <name>Statikk Shiv</name>
+    <description>Every third attack from the holder unleashes a chain lightning that bounces to nearby enemies, dealing magic damage and reducing their Magic Resist for several seconds.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>25</id>
+    <name>Titan&#x27;s Resolve</name>
+    <description>When the holder takes damage or inflicts a critical strike, they gain a stacking Attack Damage and Ability Power bonus.  This stacks up to a limit, at which point the holder gains Armor and Magic Resistance.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>26</id>
+    <name>Runaan&#x27;s Hurricane</name>
+    <description>The holder&#x27;s attacks fire a bolt at another nearby enemy, dealing a percentage of the holder&#x27;s Attack Damage and applying on-hit effects. These bolts can critically strike.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>27</id>
+    <name>Zz&#x27;Rot Portal</name>
+    <description>At the start of combat, the holder taunts nearby enemies. When the holder dies, a Voidspawn arises taunting nearby enemies. Voidspawns that arise from summoned units are only partially effective.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>28</id>
+    <name>Legionnaire Emblem</name>
+    <description>The holder gains the Legionnaire trait.</description>
+    <isUnique>true</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>29</id>
+    <name>Last Whisper</name>
+    <description>When the holder inflicts a critical hit, the target&#x27;s Armor is reduced for several seconds. This effect does not stack.</description>
+    <isUnique>true</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>33</id>
+    <name>Rabadon&#x27;s Deathcap</name>
+    <description>Grants a percentage bonus Ability Power (including components).</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>34</id>
+    <name>Archangel&#x27;s Staff</name>
+    <description>Each time the holder casts their Ability, they gain Ability Power equal to a percentage of their maximum Mana.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>35</id>
+    <name>Locket of the Iron Solari</name>
+    <description>When combat begins, the holder and nearby allies in the same row gain a shield that blocks damage for several seconds.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>36</id>
+    <name>Ionic Spark</name>
+    <description>Nearby enemies have their Magic Resist reduced (does not stack). When they cast a spell, they are zapped taking magic damage equal to a percentage of their max Mana.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>37</id>
+    <name>Morellonomicon</name>
+    <description>When the holder deals magic or true damage with their Ability, they burn the target, dealing a percentage of the target&#x27;s maximum Health as true damage over several seconds, and reducing healing for the duration of the burn.</description>
+    <isUnique>true</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>38</id>
+    <name>Spellweaver Emblem</name>
+    <description>The holder gains the Spellweaver trait.</description>
+    <isUnique>true</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>39</id>
+    <name>Jeweled Gauntlet</name>
+    <description>The holder&#x27;s magic and true damage from their Ability can critically strike. The holder gains bonus Critical Strike Damage.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>44</id>
+    <name>Blue Buff</name>
+    <description>After casting their Ability, the holder gains Mana.</description>
+    <isUnique>true</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>45</id>
+    <name>Frozen Heart</name>
+    <description>Reduces the Attack Speed of nearby enemies.</description>
+    <isUnique>true</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>46</id>
+    <name>Chalice of Power</name>
+    <description>When combat begins, the holder and all nearby allies in the same row gain Spell Power for the rest of combat.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>47</id>
+    <name>Redemption</name>
+    <description>Periodically, the holder radiates an aura to nearby allies, healing them a percentage of their missing Health. Affected allies take reduced damage from multi-target abilities and attacks for several seconds.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>48</id>
+    <name>Renewer Emblem</name>
+    <description>The holder gains the Renewer trait.</description>
+    <isUnique>true</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>49</id>
+    <name>Hand Of Justice</name>
+    <description>At the beginning of each planning phase, the holder&#x27;s basic attacks and spells deal additional damage or heal for a percentage of damage dealt.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>55</id>
+    <name>Bramble Vest</name>
+    <description>Negates bonus damage from incoming critical hits. On being hit by a Basic Attack, deal magic damage to all nearby enemies every couple seconds.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>56</id>
+    <name>Gargoyle Stoneplate</name>
+    <description>The holder gains Armor and Magic Resist for each enemy targeting them.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>57</id>
+    <name>Sunfire Cape</name>
+    <description>Periodically, a random nearby enemy is burned a percentage of their maximum Health over several seconds. Any healing they receive is reduced.</description>
+    <isUnique>true</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>58</id>
+    <name>Ironclad Emblem</name>
+    <description>The holder gains the Ironclad trait.</description>
+    <isUnique>true</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>59</id>
+    <name>Shroud of Stillness</name>
+    <description>When combat begins, the holder shoots a beam straight ahead that delays affected enemies&#x27; first spellcast, increasing their max Mana until they cast.</description>
+    <isUnique>true</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>66</id>
+    <name>Dragon&#x27;s Claw</name>
+    <description>Grants bonus Magic Resist (including components).</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>67</id>
+    <name>Zephyr</name>
+    <description>When combat begins, the holder summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for several seconds. Ignores CC immunity.</description>
+    <isUnique>true</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>68</id>
+    <name>Redeemed Emblem</name>
+    <description>The holder gains the Redeemed trait.</description>
+    <isUnique>true</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>69</id>
+    <name>Quicksilver</name>
+    <description>The holder is immune to crowd control for the first several seconds of combat.</description>
+    <isUnique>true</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>77</id>
+    <name>Warmog&#x27;s Armor</name>
+    <description>Grants bonus Health (including components).</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>78</id>
+    <name>Dawnbringer Emblem</name>
+    <description>The holder gains the Dawnbringer trait.</description>
+    <isUnique>true</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>79</id>
+    <name>Trap Claw</name>
+    <description>Blocks the first enemy Ability that hits the holder, and stuns the Ability&#x27;s caster for several seconds.</description>
+    <isUnique>true</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>88</id>
+    <name>Force of Nature</name>
+    <description>The holder&#x27;s maximum team size is incrased.</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>89</id>
+    <name>Assassin Emblem</name>
+    <description>The holder gains the Assassin trait.</description>
+    <isUnique>true</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>99</id>
+    <name>Thief&#x27;s Gloves</name>
+    <description>At the beginning of each planning phase, the holder equips 2 temporary items. Temporary items increase in power based on your player level. [Consumes Three Item Slots. Cannot Grant Shadow Items]</description>
+    <isUnique>false</isUnique>
+    <isShadow>false</isShadow>
+  </row>
+  <row>
+    <id>1001</id>
+    <name>Shadow Sword</name>
+    <description>Gain Attack Damage.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+  </row>
+  <row>
+    <id>1002</id>
+    <name>Shadow Bow</name>
+    <description>Gain Attack Speed.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+  </row>
+  <row>
+    <id>1003</id>
+    <name>Shadow Rod</name>
+    <description>Gain Spell Power.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+  </row>
+  <row>
+    <id>1004</id>
+    <name>Shadow Tear</name>
+    <description>Gain Mana.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+  </row>
+  <row>
+    <id>1005</id>
+    <name>Shadow Vest</name>
+    <description>Gain Armor.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+  </row>
+  <row>
+    <id>1006</id>
+    <name>Shadow Cloak</name>
+    <description>Gain Magic Resist.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+  </row>
+  <row>
+    <id>1007</id>
+    <name>Shadow Belt</name>
+    <description>Gain Health.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+  </row>
+  <row>
+    <id>1008</id>
+    <name>Shadow Spatula</name>
+    <description>It must do something evil...</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+  </row>
+  <row>
+    <id>1009</id>
+    <name>Shadow Gloves</name>
+    <description>Gain Critical Strike Chance and Dodge Chance.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+  </row>
+  <row>
+    <id>1011</id>
+    <name>Caustic Deathblade</name>
+    <description>Contributing to a kill grants the holder additional Attack Damage for the rest of combat. This effect can stack any number of times.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+    <shadowPenalty>The holder starts with a percentage of their maximum Health.</shadowPenalty>
+  </row>
+  <row>
+    <id>1012</id>
+    <name>Spectral Giantslayer</name>
+    <description>The holder&#x27;s Abilities and attacks do bonus damage.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+    <shadowPenalty>If the target is below a certain Health, the holder&#x27;s Abilities and attacks do decreased damage.</shadowPenalty>
+  </row>
+  <row>
+    <id>1013</id>
+    <name>Hextech Gunblade Of Immortality</name>
+    <description>The holder&#x27;s magic and true damage from Abilities heals the nearest ally with missing Health for a percentage of the damage dealt.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+    <shadowPenalty>This heal cannot affect the holder.</shadowPenalty>
+  </row>
+  <row>
+    <id>1014</id>
+    <name>Spectral Spear of Shojin</name>
+    <description>The holder&#x27;s attacks restore additional Mana.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+    <shadowPenalty>The holder deals less damage.</shadowPenalty>
+  </row>
+  <row>
+    <id>1015</id>
+    <name>Fallen Guardian Angel</name>
+    <description>Prevents the holder&#x27;s first death, placing them in stasis instead. After a short delay, they return with restored Health and shed all negative effects.</description>
+    <isUnique>true</isUnique>
+    <isShadow>true</isShadow>
+    <shadowPenalty>After this effect triggers, the holder&#x27;s Attack Speed is reduced for the rest of combat.</shadowPenalty>
+  </row>
+  <row>
+    <id>1016</id>
+    <name>Riskthirster</name>
+    <description>Physical damage heals the holder for a percentage of the damage dealt.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+    <shadowBonus>Each time the holder heals to a percentage Health, they gain a percentage Attack Speed for several seconds.</shadowBonus>
+    <shadowPenalty>The holder takes a percentage of their maximum Health in true damage at the beginning of combat or upon being equipped.</shadowPenalty>
+  </row>
+  <row>
+    <id>1017</id>
+    <name>Zeke&#x27;s Bleak Herald</name>
+    <description>When combat begins, the holder reduces the Attack Speed of all nearby allies within in the same row. The holder then gains Attack Speed for each affected ally.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+  </row>
+  <row>
+    <id>1118</id>
+    <name>Forgotten Emblem</name>
+    <description>The holder gains the Forgotten trait.</description>
+    <isUnique>true</isUnique>
+    <isShadow>true</isShadow>
+  </row>
+  <row>
+    <id>1019</id>
+    <name>Sacrificial Infinity Edge</name>
+    <description>Grants Critical Strike Chance (including components). Each point of Critical Strike Chance above 100% becomes bonus Critical Strike Damage.</description>
+    <isUnique>true</isUnique>
+    <isShadow>true</isShadow>
+    <shadowBonus>The holder also gains bonus Critical Strike Damage.</shadowBonus>
+    <shadowPenalty>Each time the holder critically strikes, they deal a percentage of their maximum Health to themselves as true damage.</shadowPenalty>
+  </row>
+  <row>
+    <id>1022</id>
+    <name>Rapid Deathcannon</name>
+    <description>Increases the holder&#x27;s Attack Range and grants bonus Attack Speed (including components) when there are no enemies nearby. The holder&#x27;s attacks can no longer miss.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+  </row>
+  <row>
+    <id>1023</id>
+    <name>Guinsoo&#x27;s Sacrificial Rageblade</name>
+    <description>Attacks grant bonus Attack Speed for the rest of combat. This bonus Attack Speed can stack any number of times.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+    <shadowPenalty>The holder is dealt a percentage of their maximum Health as true damage each attack.</shadowPenalty>
+  </row>
+  <row>
+    <id>1024</id>
+    <name>Statikk Stiletto</name>
+    <description>Every other attack from the holder unleashes chain lightning that strikes nearby enemies, dealing magic damage and reducing their Magic Resist for several seconds.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+    <shadowPenalty>The holder has their Attack Damage reduced.</shadowPenalty>
+  </row>
+  <row>
+    <id>1025</id>
+    <name>Titan&#x27;s Revenge</name>
+    <description>Periodically, the holder&#x27;s next attack deals a percentage of the total damage they have taken since the last empowered attack as true damage.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+  </row>
+  <row>
+    <id>1026</id>
+    <name>Runaan&#x27;s Untamed Hurricane</name>
+    <description>The holder&#x27;s attacks fire bolts at nearby enemies, dealing a percentage of the holder&#x27;s Attack Damage. These bolts can critically strike but do not apply on-hit effects.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+  </row>
+  <row>
+    <id>1027</id>
+    <name>Unstable Zz&#x27;Rot Portal</name>
+    <description>At the start of combat, the holder taunts nearby enemies. When the holder dies, an Unstable Voidspawn arises and taunts enemies again. When it dies it deals true damage to nearby enemies. Voidspawns that arise from summoned units are only partially effective.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+  </row>
+  <row>
+    <id>1128</id>
+    <name>Hellion Emblem</name>
+    <description>The holder gains the Hellion trait.</description>
+    <isUnique>true</isUnique>
+    <isShadow>true</isShadow>
+  </row>
+  <row>
+    <id>1029</id>
+    <name>Final Whisper</name>
+    <description>When the holder inflicts a critical hit, the target&#x27;s Armor and Magic Resist are reduced for several seconds.</description>
+    <isUnique>true</isUnique>
+    <isShadow>true</isShadow>
+    <shadowPenalty>The holder&#x27;s Armor and Magic Resist are also permanently reduced.</shadowPenalty>
+  </row>
+  <row>
+    <id>1033</id>
+    <name>Rabadon&#x27;s Caustic Deathcap</name>
+    <description>Grants a percentage bonus Ability Power (including components).</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+    <shadowPenalty>The holder receives reduced maximum Health.</shadowPenalty>
+  </row>
+  <row>
+    <id>1034</id>
+    <name>Archdemon&#x27;s Staff Of Immortality</name>
+    <description>Each time the holder casts their Ability, they gain empty maximum Health equal to a percentage of their maximum Mana. The holder then heals for that amount.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+  </row>
+  <row>
+    <id>1035</id>
+    <name>Locket of the Silver Lunari</name>
+    <description>When combat begins, the holder and nearby allies in the same row gain bonus Armor and Magic Resist.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+    <shadowPenalty>Affected allies gain less Mana per attack.</shadowPenalty>
+  </row>
+  <row>
+    <id>1036</id>
+    <name>Ionic Dark-Spark</name>
+    <description>Nearby enemies and allies (except the holder) are zapped when they cast an ability, taking magic damage equal to a percentage of their max Mana.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+    <shadowBonus>Whenever an ally or enemy is zapped, the holder gains Ability Power for the rest of combat.</shadowBonus>
+  </row>
+  <row>
+    <id>1037</id>
+    <name>Mor-evil-lonomicon</name>
+    <description>When the holder deals magic or true damage with their Ability, they burn the target, dealing a percentage of the target&#x27;s maximum Health as true damage over several seconds, and reducing healing for the duration of the burn.</description>
+    <isUnique>true</isUnique>
+    <isShadow>true</isShadow>
+    <shadowPenalty>The holder&#x27;s Ability deals less damage.</shadowPenalty>
+  </row>
+  <row>
+    <id>1138</id>
+    <name>Dragonslayer Emblem</name>
+    <description>The holder gains the Dragonslayer trait.</description>
+    <isUnique>true</isUnique>
+    <isShadow>true</isShadow>
+  </row>
+  <row>
+    <id>1039</id>
+    <name>Sacrificial Gauntlet</name>
+    <description>The holder&#x27;s magic and true damage from their Ability can critically strike. The holder gains bonus Critical Strike Damage and bonus Critical Strike Chance.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+    <shadowPenalty>Each time the holder casts their Ability, they deal a percentage of their maximum Health to themselves as true damage.</shadowPenalty>
+  </row>
+  <row>
+    <id>1044</id>
+    <name>Very Dark Blue Buff</name>
+    <description>After casting their Ability, the holder gains Mana.</description>
+    <isUnique>true</isUnique>
+    <isShadow>true</isShadow>
+    <shadowBonus>If the holder is below a percentage of their Health, the Mana gained is increased.</shadowBonus>
+  </row>
+  <row>
+    <id>1045</id>
+    <name>Frozen Dark Heart</name>
+    <description>Reduces the Attack Speed of nearby enemies.</description>
+    <isUnique>true</isUnique>
+    <isShadow>true</isShadow>
+    <shadowPenalty>The Attack Speed of nearby allies (except the holder) is reduced.</shadowPenalty>
+  </row>
+  <row>
+    <id>1046</id>
+    <name>Chalice of Malice</name>
+    <description>When combat begins, all of the holder&#x27;s nearby allies in the same row gain Spell Power for the rest of combat.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+    <shadowPenalty>The holder loses Ability Power instead of gaining any.</shadowPenalty>
+  </row>
+  <row>
+    <id>1047</id>
+    <name>Sacrificial Redemption</name>
+    <description>Periodically, the holder radiates an aura to all allies on the board except themself, healing them a percentage of their missing Health.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+    <shadowPenalty>Each time this happens, the holder damages themself a percentage of their current Health as true damage.</shadowPenalty>
+  </row>
+  <row>
+    <id>1148</id>
+    <name>Coven Emblem</name>
+    <description>The holder gains the Coven trait.</description>
+    <isUnique>true</isUnique>
+    <isShadow>true</isShadow>
+  </row>
+  <row>
+    <id>1049</id>
+    <name>Hand of Vengeance</name>
+    <description>At the beginning of each planning phase, the holder&#x27;s basic attacks and spells deal additional damage or heal for a percentage of damage dealt.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+    <shadowPenalty>These bonuses expire after each takedown, and renew on the next.</shadowPenalty>
+  </row>
+  <row>
+    <id>1055</id>
+    <name>Refracted Bramble Vest</name>
+    <description>Negates bonus damage from incoming critical hits. On being hit by a Basic Attack, deal magic damage to all nearby enemies every couple seconds.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+    <shadowBonus>Grants bonus Armor (including components).</shadowBonus>
+  </row>
+  <row>
+    <id>1056</id>
+    <name>Gargoyle Stoneplate Of Immortality</name>
+    <description>The holder heals themself periodically for each enemy targeting them.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+  </row>
+  <row>
+    <id>1057</id>
+    <name>Eclipse Cape</name>
+    <description>Periodically, a random nearby enemy is burned a percentage of their maximum Health over several seconds. Any healing they receive is reduced.</description>
+    <isUnique>true</isUnique>
+    <isShadow>true</isShadow>
+    <shadowPenalty>The holder is also burned for a percentage of their maximum Health every second for the entirety of combat, and any healing they receive is reduced.</shadowPenalty>
+  </row>
+  <row>
+    <id>1158</id>
+    <name>Cavalier Emblem</name>
+    <description>The holder gains the Cavalier trait.</description>
+    <isUnique>true</isUnique>
+    <isShadow>true</isShadow>
+  </row>
+  <row>
+    <id>1059</id>
+    <name>Dark Shroud of Stillness</name>
+    <description>When combat begins, the holder shoots a beam straight ahead and behind that delays affected enemies&#x27; and other allies&#x27; first ability cast, increasing their maximum Mana until they cast.</description>
+    <isUnique>true</isUnique>
+    <isShadow>true</isShadow>
+  </row>
+  <row>
+    <id>1066</id>
+    <name>Refracted Dragon&#x27;s Claw</name>
+    <description>Reduces incoming magic damage by a percentage.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+    <shadowBonus>Negates bonus damage from incoming critical hits.</shadowBonus>
+  </row>
+  <row>
+    <id>1067</id>
+    <name>Turbulent Zephyr</name>
+    <description>When combat begins, the holder summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for several seconds. Ignores CC immunity.</description>
+    <isUnique>true</isUnique>
+    <isShadow>true</isShadow>
+    <shadowPenalty>Once the enemy returns to combat, they gain Attack Damage and Ability Power for the rest of combat.</shadowPenalty>
+  </row>
+  <row>
+    <id>1168</id>
+    <name>Revenant Emblem</name>
+    <description>The holder gains the Revenant trait.</description>
+    <isUnique>true</isUnique>
+    <isShadow>true</isShadow>
+  </row>
+  <row>
+    <id>1069</id>
+    <name>Caustic Quicksilver</name>
+    <description>The holder is immune to crowd control for the entirety of combat and receives reduced Health.</description>
+    <isUnique>true</isUnique>
+    <isShadow>true</isShadow>
+  </row>
+  <row>
+    <id>1077</id>
+    <name>Warmog&#x27;s Sacrificial Armor</name>
+    <description>Grants bonus Health (including components).</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+    <shadowPenalty>The holder takes true damage each second.</shadowPenalty>
+  </row>
+  <row>
+    <id>1178</id>
+    <name>Nightbringer Emblem</name>
+    <description>The holder gains the Nightbringer trait.</description>
+    <isUnique>true</isUnique>
+    <isShadow>true</isShadow>
+  </row>
+  <row>
+    <id>1079</id>
+    <name>Vengeful Trap Claw</name>
+    <description>Blocks the first enemy Ability that hits the holder, then teleports them to the Ability&#x27;s caster, and causes both units to start targeting each other. They deal increased damage to each other.</description>
+    <isUnique>true</isUnique>
+    <isShadow>true</isShadow>
+  </row>
+  <row>
+    <id>1088</id>
+    <name>Force of Darkness</name>
+    <description>The holder&#x27;s maximum team size is incrased.</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+    <shadowPenalty>The player&#x27;s Little Legend takes increased percentage damage after losing a battle.</shadowPenalty>
+  </row>
+  <row>
+    <id>1189</id>
+    <name>Abomination Emblem</name>
+    <description>The holder gains the Abomination trait.</description>
+    <isUnique>true</isUnique>
+    <isShadow>true</isShadow>
+  </row>
+  <row>
+    <id>1099</id>
+    <name>Trickster&#x27;s Gloves</name>
+    <description>At the beginning of each planning phase, the holder equips 2 temporary items. These are always full shadow items. [Consumes Three Item Slots]</description>
+    <isUnique>false</isUnique>
+    <isShadow>true</isShadow>
+  </row>
+</root>

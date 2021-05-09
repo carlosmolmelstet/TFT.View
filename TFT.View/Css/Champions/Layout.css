@@ -1,0 +1,130 @@
+﻿body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: #616161; }
+  body::-webkit-scrollbar {
+    width: 5px; }
+  body::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #233037; }
+
+nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  height: 100vh;
+  width: 68px;
+  padding: 16px 8px;
+  background: #19252C;
+  transition: 0.35s; }
+  nav .nav-header {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    nav .nav-header .wrapper-logos {
+      display: none; }
+      nav .nav-header .wrapper-logos .logoRiotAnimation {
+        position: absolute;
+        left: 50px;
+        width: 160px;
+        height: 160px;
+        background: url("../../Data/Images/Logos/RiotLogoAnimation.png") 0 -2400px no-repeat;
+        -webkit-transition: background-position 0.25s steps(15, end);
+        transition: background-position 0.25s steps(15, end);
+        -webkit-transform: scale(0.4);
+        transform: scale(0.4); }
+        nav .nav-header .wrapper-logos .logoRiotAnimation:hover {
+          background: url("../../Data/Images/Logos/RiotLogoAnimation.png") 0 0px no-repeat; }
+      nav .nav-header .wrapper-logos .logoTFT {
+        border-right: 1px solid #353535;
+        padding-right: 10px; }
+    nav .nav-header .btns-menu .menu-open {
+      width: 42px;
+      height: 42px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+      cursor: pointer; }
+      nav .nav-header .btns-menu .menu-open:hover {
+        background: #233037; }
+    nav .nav-header .btns-menu .menu-close {
+      display: none; }
+  nav .nav-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px; }
+    nav .nav-body .nav-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 60px;
+      height: 60px;
+      border-radius: 8px;
+      margin: 8px 0; }
+      nav .nav-body .nav-btn p {
+        display: none;
+        font-size: 24px;
+        font-weight: 500; }
+      nav .nav-body .nav-btn .btn-icon {
+        width: 20px;
+        display: flex;
+        justify-content: center; }
+      nav .nav-body .nav-btn:hover {
+        cursor: pointer;
+        background: #233037; }
+        nav .nav-body .nav-btn:hover .btn-icon svg path {
+          fill: #F1F1F1; }
+  nav.nav-expanded {
+    width: 368px !important; }
+    nav.nav-expanded .nav-header {
+      justify-content: space-between; }
+      nav.nav-expanded .nav-header .wrapper-logos {
+        display: flex;
+        align-items: center; }
+      nav.nav-expanded .nav-header .btns-menu .menu-close {
+        width: 42px;
+        height: 42px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        cursor: pointer; }
+        nav.nav-expanded .nav-header .btns-menu .menu-close:hover {
+          background: #233037; }
+      nav.nav-expanded .nav-header .btns-menu .menu-open {
+        display: none; }
+    nav.nav-expanded .nav-body {
+      padding: 8px; }
+      nav.nav-expanded .nav-body .nav-btn {
+        justify-content: space-between;
+        width: 320px;
+        height: 60px;
+        padding: 0 16px; }
+        nav.nav-expanded .nav-body .nav-btn p {
+          display: initial;
+          transition: 0.35s; }
+        nav.nav-expanded .nav-body .nav-btn:hover {
+          cursor: pointer;
+          background: #233037;
+          color: #F1F1F1; }
+
+main {
+  background: #0B1921;
+  min-height: 400vh;
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+  main .wrapper-main {
+    margin-left: 117px;
+    margin-right: 32px;
+    min-height: 100vh;
+    max-width: 1120px;
+    word-break: break-all; }
